@@ -1,11 +1,11 @@
 // Import
-import squareOfNumber, { myFavColor } from "./main.js";
+import squareOfNumber from "./main.js";
 const number = 7;
 const square = squareOfNumber(number);
 console.log(`The Square of ${number} is ${square}.`);
 import { add } from "./main.js";
 console.log("Addition of two numbers:", add(6, 5));
-import { myFirstName, myLuckyNumber } from "./main.js";
+import { myFirstName, myLuckyNumber, myFavColor } from "./main.js";
 console.log("My First Name:", myFirstName);
 console.log("My Lucky Number:", myLuckyNumber);
 console.log("My Favourite Color:", myFavColor);
